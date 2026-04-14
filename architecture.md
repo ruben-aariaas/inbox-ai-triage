@@ -58,6 +58,13 @@ Mensaje:
 7. Guardar en Google Sheets
 
 
+Reglas adicionales:
+- Si el mensaje ofrece servicios no solicitados, promesas comerciales agresivas o propuestas genéricas de captación, clasifícalo como spam
+- Si el mensaje solo pide actualización sobre un caso anterior, ticket o incidencia ya abierta, clasifícalo como seguimiento
+- Los mensajes de seguimiento suelen tener prioridad baja salvo que incluyan urgencia clara o bloqueo actual
+- Las consultas de ayuda no urgente o dudas de uso suelen ser soporte con prioridad baja o media según el impacto
+- No clasifiques como ventas mensajes promocionales enviados al equipo sin haber sido solicitados por el usuario
+
 {
   "nombre": "Carlos",
   "email": "carlos@email.com",
