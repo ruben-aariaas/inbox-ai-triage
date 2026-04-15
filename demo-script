@@ -1,0 +1,13 @@
+Guion corto en español
+
+“Este proyecto resuelve un problema muy común en empresas pequeñas: la entrada caótica de mensajes de soporte, incidencias, ventas, seguimiento y spam en un mismo canal. Lo que he construido es un sistema de triage con IA que recibe un mensaje, lo clasifica automáticamente, le asigna una prioridad, genera un resumen y lo guarda de forma estructurada para que el equipo pueda actuar más rápido.
+La arquitectura tiene dos modos: uno de evaluación con dataset de prueba para medir precisión y otro real con webhook para recibir mensajes reales. A nivel técnico he integrado OpenAI dentro de un flujo en n8n, he añadido metadatos de ejecución, parseo de respuesta y persistencia en Google Sheets. El valor principal es reducir trabajo manual y mejorar la priorización.”
+
+Guion corto en inglés
+
+“This project solves a common problem in small businesses: chaotic incoming messages from support, incidents, sales, follow-ups, and spam mixed in the same channel. What I built is an AI triage system that receives a message, classifies it automatically, assigns a priority, generates a summary, and stores the result in a structured way so the team can act faster.
+The architecture has two modes: an evaluation mode with a test dataset to measure accuracy and a real mode using a webhook to process real messages. Technically, I integrated OpenAI into an n8n workflow, added execution metadata, response parsing, and storage in Google Sheets. The main value is reducing manual work and improving prioritization.”
+
+Guion comercial corto
+
+“Automatizo la clasificación y priorización de mensajes entrantes para que una empresa pequeña responda antes a lo importante y pierda menos tiempo revisando manualmente.”
