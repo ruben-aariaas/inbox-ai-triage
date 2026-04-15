@@ -1,51 +1,21 @@
-Demo 1 — Soporte urgente
+# Demo Cases — Inbox AI Triage
+
+## Objetivo
+Este documento recoge tres casos de demo diseñados para enseñar el valor del sistema de forma rápida, clara y orientada a negocio.
+
+El proyecto está pensado para demostrar cómo un flujo con IA puede clasificar mensajes entrantes, asignar prioridad, generar un resumen y dejar la información lista para actuar sin revisión manual inicial.
+
+---
+
+## Demo 1 — Soporte urgente
+
+### Contexto
+Un usuario no puede acceder a su cuenta y el problema afecta directamente al uso del servicio.
+
+### Input
+```json
 {
   "nombre": "Carlos Martín",
   "email": "carlos@email.com",
   "mensaje": "No puedo acceder a mi cuenta desde esta mañana y el cambio de contraseña no funciona."
 }
-
-Output esperado
-categoría: soporte
-prioridad: alta
-resumen: problema de acceso a la cuenta
-Qué demuestra
-detección de urgencia;
-clasificación útil;
-capacidad de resumir.
-Por qué importa al negocio
-
-Permite identificar rápido incidencias importantes y responder antes
-
-
-Demo 2 — Lead comercial real
-Output esperado
-categoría: soporte
-prioridad: alta
-resumen: problema de acceso a la cuenta
-Qué demuestra
-detección de urgencia;
-clasificación útil;
-capacidad de resumir.
-Por qué importa al negocio
-
-Permite identificar rápido incidencias importantes y responder antes
-
-
-Demo 3 — Spam / promoción no solicitada
-{
-  "nombre": "Oferta SEO",
-  "email": "seo@spammail.com",
-  "mensaje": "Multiplica tus ventas con nuestro servicio SEO garantizado. Resultados en 7 días."
-}
-Output esperado
-categoría: spam
-prioridad: baja
-resumen: promoción no solicitada de servicios SEO
-Qué demuestra
-filtrado de ruido;
-ahorro de tiempo;
-limpieza operativa.
-Por qué importa al negocio
-
-Reduce el tiempo perdido revisando mensajes irrelevantes.
