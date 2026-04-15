@@ -1,0 +1,44 @@
+# Pitch and Objections — Inbox AI Triage
+
+## Pitch corto
+Inbox AI Triage es un sistema que automatiza la primera revisión de mensajes entrantes. Clasifica el mensaje, le asigna una prioridad, genera un resumen y lo deja registrado para que el equipo responda antes a lo importante y pierda menos tiempo revisando manualmente.
+
+---
+
+## Pitch de 60-90 segundos
+Este proyecto resuelve un problema muy común en empresas pequeñas: la entrada caótica de mensajes de soporte, incidencias, ventas, seguimiento y spam en un mismo canal.
+
+Lo que he construido es un sistema de triage con IA que recibe un mensaje, lo clasifica automáticamente, le asigna una prioridad, genera un resumen y lo guarda de forma estructurada para que el equipo pueda actuar más rápido y con más orden.
+
+El proyecto tiene dos modos: uno de evaluación con dataset de prueba para medir precisión y otro real con webhook para recibir mensajes reales.
+
+A nivel técnico integra OpenAI dentro de un flujo en n8n, añade metadatos de ejecución, parsea la respuesta y guarda el resultado en Google Sheets. El valor principal es reducir trabajo manual, mejorar la priorización y convertir una entrada desordenada en información accionable.
+
+---
+
+## ¿Por qué hiciste primero reglas manuales y luego OpenAI?
+Porque primero quería validar la lógica del flujo, entender bien el problema y tener una base medible. Después integré OpenAI para mejorar clasificación y resumen en casos donde las reglas rígidas se quedaban cortas.
+
+## ¿Qué valor real aporta esto?
+Reduce tiempo manual, mejora la priorización, separa mensajes importantes del ruido y deja la información lista para actuar sin una primera revisión manual completa.
+
+## ¿Qué limitaciones tiene ahora?
+El dataset todavía es pequeño, hay casos ambiguos en prioridad, faltan integraciones más reales como Gmail o CRM y aún se puede mejorar la gestión de duplicados y robustez del input real.
+
+## ¿Qué harías en una siguiente versión?
+Integrar Gmail, CRM o Slack, mejorar control de duplicados, ampliar evaluación con más casos reales y añadir asignación automática por equipo o persona.
+
+## ¿A quién se lo venderías primero?
+A negocios pequeños o equipos donde soporte, ventas y formularios entran mezclados y se revisan manualmente.
+
+## ¿Esto sustituye al equipo?
+No. La primera versión no sustituye al equipo. Automatiza la primera capa de revisión y orden, que es donde suele perderse mucho tiempo.
+
+## ¿Por qué no es solo “otro chatbot”?
+Porque no está pensado para conversación, sino para triage operativo: clasificación, priorización, resumen y trazabilidad.
+
+## ¿Qué compra realmente la empresa?
+No compra n8n ni OpenAI. Compra menos tiempo perdido, más orden y mejor respuesta sobre lo importante.
+
+## ¿Qué demuestra este proyecto sobre ti?
+Que sé convertir un problema operativo en un sistema útil, integrar IA con herramientas reales y pensar tanto en arquitectura como en valor de negocio.
